@@ -1,0 +1,14 @@
+<html>
+<body>
+
+{{#name}}Hello, {{.}}!{{/name}}
+
+{{^name}}
+<h1>Enter your chat message below</h1>
+<form action="/chat" method="post">
+    <input type="text" placeholder="Enter your Message" text="userText"/>
+    <button type="submit">Send Message</button>
+</form>
+{{/name}}
+</body>
+</html>
