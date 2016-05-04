@@ -18,7 +18,7 @@ public class WebChatClient {
     public static String sendMessage(String InputFromHtml) {
         System.out.println("===============================================");
         System.out.println("===============================================");
-        System.out.println("================(RUNNING CLIENT================");
+        System.out.println("================(Swag)================");
         System.out.println("===============================================");
         System.out.println("===============================================");
 
